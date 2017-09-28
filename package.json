@@ -1,0 +1,23 @@
+{
+  "name": "ismatheusachicken",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brenw10/ismatheusachicken.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brenw10/ismatheusachicken/issues"
+  },
+  "homepage": "https://github.com/Brenw10/ismatheusachicken#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0"
+  }
+}
