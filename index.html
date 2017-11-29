@@ -1,6 +1,14 @@
 <body style="text-align: center">
     <title>Is Matheus a chicken?</title>
-    <h1 align="center">YES</h1>
+    <h1 align="center" onclick="showChicken()">YES</h1>
     <span style="display: none">Easter egg</span>
-    <img src="images/chicken.jpg">
+    <img id="chicken" src="images/chicken.jpg" style="display: none">
 </body>
+
+<script>
+    var count = 0;
+    function showChicken() {
+        count++;
+        if(count >= 1) document.getElementById('chicken').style.display = 'inline';
+    }
+</script>
